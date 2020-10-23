@@ -1,0 +1,42 @@
+.card {
+  background-color: #FFF;
+  border-radius: 8px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.096), 0px 10px 10px rgba(0, 0, 0, 0.062);
+  cursor: pointer;
+  height: 250px;
+  padding: 36px 32px 32px;
+  transition: transform linear 100ms;
+}
+.card:hover {
+  transform: scale(1.05)
+}
+.card h2 {
+  font-size: 1.32rem;
+  font-weight: 600;
+  color: #4c4e61;
+}
+.card p {
+  color: #a3a5ae;
+  font-size: 0.88rem;
+  line-height: 1.5rem;
+  padding: 15px 0;
+}
+
+/* CARD BACKGROUNDS */
+.card {
+  background-origin: content-box, border-box;
+  background-position: bottom right;
+  background-repeat: no-repeat;
+}
+.supervisor {
+  background-image: url('../challenge-heading/images/icon-supervisor.svg'), linear-gradient(#45d3d3, #45d3d3 4px, #FFF 4px);
+}
+.team {
+  background-image: url('../challenge-heading/images/icon-team-builder.svg'), linear-gradient(#ea5353, #ea5353 4px, #FFF 4px);
+}
+.karma {
+  background-image: url('../challenge-heading/images/icon-karma.svg'), linear-gradient(#fcaf4a, #fcaf4a 4px, #FFF 4px);
+}
+.calculator {
+  background-image: url('../challenge-heading/images/icon-calculator.svg'), linear-gradient(#549ef2, #549ef2 4px, #FFF 4px);
+}

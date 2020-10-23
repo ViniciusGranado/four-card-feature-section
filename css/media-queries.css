@@ -1,0 +1,16 @@
+@media (max-width: 900px) {
+  header h1 {
+    font-size: 1.6rem;
+  }
+  header p {
+    width: 85%;
+  }
+  .container {
+    grid-template: 1fr 1fr 1fr 1fr / 1fr;
+    grid-template-areas: 'supervisor'
+                          'team'
+                          'karma'
+                          'calculator';
+    max-width: 500px;
+  }
+}
