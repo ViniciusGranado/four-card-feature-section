@@ -30,7 +30,7 @@ body {
 
 /* HEADER */
 header {
-  color: #4c4e61;
+  color: #4C4E61;
   text-align: center;
 }
 
@@ -55,25 +55,24 @@ header p {
 
 /* MAIN */
 .container {
-  margin: 0 auto;
+  align-items: center;
   display: grid;
   gap: 30px;
   grid-template: 1fr 1fr / 1fr 1fr 1fr;
-  grid-template-areas: 'supervisor team calculator'
-  'supervisor karma calculator';
-  margin-top: 65px;
+  grid-template-areas:
+    'supervisor team calculator'
+    'supervisor karma calculator';
+  margin: 65px auto 0;
   max-width: 1110px;
   width: 90%;
 }
 .supervisor {
-  align-self: center;
   grid-area: supervisor;
 }
 .team {
   grid-area: team;
 }
 .calculator {
-  align-self: center;
   grid-area: calculator;
 }
 .karma {
